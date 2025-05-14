@@ -1,8 +1,48 @@
-
-
-nav{
-    display: flex;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+/* front-family */
+body {
+  font-family: "Open Sans", sans-serif;
 }
-.praimary-text{
-color: #FD6E0A;
+
+/* nav style */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 200px 30px 200px;
+}
+/* shaer color */
+.dark-2 {
+  color: #474747;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+.primary-text {
+  color: #fd6e0a;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.btn-primary {
+  background-color: #fd6e0a;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 18px 35px;
+  border-radius: 5px;
+  border: none;
 }
