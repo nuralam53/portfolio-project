@@ -76,3 +76,44 @@ nav li a {
   width: 580px;
   height: 670px;
 }
+
+/* about */
+
+.about {
+  background-color: #fff8f3;
+  margin: 50px 150px;
+  padding: 50px 100px;
+  border-radius: 10px;
+}
+.about-body {
+  margin: 50px 100px;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.about-body h1 {
+  text-align: center;
+  font-weight: bold;
+  margin: 0px;
+}
+.about-body p {
+  color: #757575;
+  margin: 20px 0px;
+  text-align: justify;
+  text-align-last: center;
+  line-height: 25px;
+}
+.about-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-title {
+  color: #474747;
+  /* font-size: 20px; */
+}
+.about-description{
+  font-weight: bold;
+  margin: 0px;
+}
