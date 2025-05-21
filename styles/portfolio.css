@@ -16,7 +16,7 @@ nav {
   margin: 30px 200px 30px 200px;
 }
 /* share style */
-.text-center{
+.text-center {
   text-align: center;
 }
 .dark-2 {
@@ -141,34 +141,33 @@ nav li a {
   display: flex;
   gap: 30px;
 }
-.skill{
+.skill {
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.resume{
+.resume {
   margin: 50px 150px;
 }
-.resume-container{
+.resume-container {
   display: flex;
   gap: 25px;
 }
-.section-title{
+.section-title {
   text-align: center;
-  margin: 100px;
+  /* margin: 100px; */
   font-weight: bold;
   font-size: 40px;
 }
-.b-g{
-  background-color: #FFF8F3;
-  
+.b-g {
+  background-color: #fff8f3;
 }
-footer{
+footer {
   display: flex;
   gap: 100px;
   padding: 130px 230px;
 }
-.footer-column{
+.footer-column {
   width: 50%;
 }
 footer input[type="text"] {
@@ -181,7 +180,7 @@ footer input[type="text"] {
   margin-bottom: 24px;
   border: none;
 }
-footer input[type="email"]{
+footer input[type="email"] {
   height: 64px;
   border-radius: 5px;
   background-color: white;
@@ -189,13 +188,15 @@ footer input[type="email"]{
   width: 100%;
   padding: 10px 20px;
   margin-bottom: 24px;
+  border: none;
 }
-footer textarea{
-   height: 180px;
+footer textarea {
+  height: 180px;
   border-radius: 5px;
   background-color: white;
   display: block;
   width: 100%;
   padding: 10px 20px;
   margin-bottom: 24px;
+  border: none;
 }
