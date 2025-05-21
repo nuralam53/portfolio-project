@@ -15,7 +15,10 @@ nav {
   justify-content: space-between;
   margin: 30px 200px 30px 200px;
 }
-/* share color */
+/* share style */
+.text-center{
+  text-align: center;
+}
 .dark-2 {
   color: #474747;
 }
@@ -142,4 +145,57 @@ nav li a {
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.resume{
+  margin: 50px 150px;
+}
+.resume-container{
+  display: flex;
+  gap: 25px;
+}
+.section-title{
+  text-align: center;
+  margin: 100px;
+  font-weight: bold;
+  font-size: 40px;
+}
+.b-g{
+  background-color: #FFF8F3;
+  
+}
+footer{
+  display: flex;
+  gap: 100px;
+  padding: 130px 230px;
+}
+.footer-column{
+  width: 50%;
+}
+footer input[type="text"] {
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
+footer input[type="email"]{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+}
+footer textarea{
+   height: 180px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
 }
